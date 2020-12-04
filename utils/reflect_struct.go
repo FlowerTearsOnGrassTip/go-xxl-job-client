@@ -5,6 +5,7 @@ import (
 	"reflect"
 )
 
+//结构体转map
 func ReflectStructToMap(ob interface{}) map[string]interface{} {
 	res := make(map[string]interface{})
 	object := reflect.ValueOf(ob)
